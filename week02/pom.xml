@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>edu.brandeis.cosi12b</groupId>
+        <artifactId>java-reactor-project</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../parent-reactor/java-reactor/pom.xml</relativePath>
+    </parent>
+
+    <name>week02</name>
+    <artifactId>week02-project</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>live02</module>
+    </modules>
+
+</project>

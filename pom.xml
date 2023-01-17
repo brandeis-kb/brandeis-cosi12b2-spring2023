@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>cosi12b-spring2023</name>
+    <groupId>edu.brandeis.cosi12b</groupId>
+    <artifactId>cosi12b-spring2023-project</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>parent-reactor</module>
+        <module>week01</module>
+        <module>week02</module>
+        <module>week03</module>
+        <module>week04</module>
+        <module>week05</module>
+        <module>week06</module>
+        <module>week07</module>
+        <module>week08</module>
+        <module>week09</module>
+        <module>week10</module>
+    </modules>
+
+</project>
