@@ -11,19 +11,21 @@ public class Live02 {
         // testWhile();
         // testFor();
         // testDoWhile();
-        // testSum();
+        testSum(); // 1
+        // 9
     }
 
-    public static void testIf() {
-        int a = 7;
-        int b = 12;
-        if ( b > a ) {
-            System.out.println("'b' is bigger than 'a'");
-        } else {
-            // why not a is bigger than b ??
-            System.out.println("'b' is not bigger than 'a'");
-        }
-    }
+    // what is the output of this method ??
+	public static void testIf() {
+		int a = 7;
+		int b = 12;
+		if ( b > a ) {
+			System.out.println("'b' is bigger than 'a'");
+		} else {
+			// why not a is bigger than b ??
+			System.out.println("'b' is not bigger than 'a'");
+		}
+	}
 
     // what is the output of this method ??
     public static void testWhile() {
@@ -43,8 +45,9 @@ public class Live02 {
 
     // what is the output of this method ??
     public static void testFor() {
-        for (int i=0; i < 5; i++) {
-            System.out.print(i + ",");
+        for (int i=0; i < 5; ++i) {
+            System.out.print(i + ","); 
+        	//i++;
         }
     }
 
@@ -66,15 +69,15 @@ public class Live02 {
 
 
     public static void testSum() {
-        int a = 17;
-        int b = 12;
-        int sum = add(a, b);
-        System.out.printf("Sum is : %d \n", sum);
+        int a = 17; // 2
+        int b = 12; // 3
+        int sum = add(a, b); // 4
+        System.out.printf("Sum is : %d \n", sum); // 8
     }
 
     public static int add(int num1, int num2) {
-        int result = 0;
-        result = num1 + num2;
-        return result;
+        int result = 0; // 5
+        result = num1 + num2; // 6
+        return result; // 7
     }
 }

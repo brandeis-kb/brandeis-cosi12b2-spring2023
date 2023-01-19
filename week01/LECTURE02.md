@@ -12,7 +12,8 @@ When to use iterative development? You should use iterative development only on 
 
 ### Important Dates
 
-Recitation starts next Tuesday, Jan 24th.
+* Please join Slack - we will be using this for discussions
+* Recitation starts next Tuesday, Jan 24th.
 
 ### Topics
 
