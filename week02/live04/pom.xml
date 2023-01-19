@@ -10,10 +10,10 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <name>live03</name>
+    <name>live04</name>
 
     <groupId>edu.brandeis.cosi12b</groupId>
-    <artifactId>live03-project</artifactId>
+    <artifactId>live04-project</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 

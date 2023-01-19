@@ -8,9 +8,9 @@ public class Live02 {
 
     public static void main(String[] args) {
         // testIf();
-        testWhile();
+        // testWhile();
         // testFor();
-        testDoWhile();
+        // testDoWhile();
         // testSum();
     }
 
