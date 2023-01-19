@@ -17,6 +17,7 @@
 
     <modules>
         <module>live01</module>
+        <module>live02</module>
     </modules>
 
 </project>

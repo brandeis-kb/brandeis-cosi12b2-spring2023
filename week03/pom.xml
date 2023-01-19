@@ -16,7 +16,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>live03</module>
+        <module>live05</module>
     </modules>
 
     <dependencies>

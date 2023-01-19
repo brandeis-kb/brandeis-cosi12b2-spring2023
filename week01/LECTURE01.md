@@ -7,6 +7,7 @@ Good afternoon class! My name is Ken Brumer and I will your instructor for this 
 structure for the class that I like to follow which looks something like this:
 
   * Start with a meaningful quote
+  * Announcements
   * Go over upcoming important due dates (if applicable)
   * Review material from previous lecture (if applicable)
   * Take questions from previous material (limit to 3)
@@ -24,7 +25,15 @@ With that out of the way, let's begin.
   -- unattributed but based on Phil Karlton quote
 ```
 
+### Announcements
+
+There will be no recitation today - we will start next week. 
+
 ### Topics
+* LATTE
+* Slack - please follow the link and sign in
+* Course Syllabus
+* Office Hours MF 9am - 10am, or by appointment. Please message me for room
 * Etiquette - This is a remote class. Please mute yourself if you are not talking or asking a question. Please
   raise your hand to ask a question.
 * Academic Integrity - "A student shall not submit work that is falsified or is not the result of the student's own 
@@ -55,5 +64,9 @@ With that out of the way, let's begin.
  
 * None today
 
+### Links
 
+[Slack](https://join.slack.com/t/brandeiscosi1-hvg4361/shared_invite/zt-1n1mub2tf-yMC1i30QWfkEmCVwk83DzQ)
+[Eclipse](https://www.eclipse.org/ide/)
+[JDK]( https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
