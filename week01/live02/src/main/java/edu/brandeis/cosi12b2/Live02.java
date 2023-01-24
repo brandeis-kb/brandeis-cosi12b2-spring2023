@@ -3,6 +3,7 @@ package edu.brandeis.cosi12b2;
 // Thoughts:
 // - change types? (floats)
 // - use a CONSTANT
+// - koans - https://github.com/matyb/java-koans/tree/master/koans/src/beginner
 public class Live02 {
     public static final int LARGE_INT = 5736878;
 
@@ -11,8 +12,19 @@ public class Live02 {
         // testWhile();
         // testFor();
         // testDoWhile();
-        testSum(); // 1
+        // testSum(); // 1
+        testPrePostIncrement();
         // 9
+    }
+    
+    public static void testPrePostIncrement() {
+    	// ++a increments and then uses the variable.
+    	// a++ uses and then increments the variable.
+
+    	int a = 1;
+    	System.out.println(a++);
+    	System.out.println(a); 
+    	System.out.println(++a);    	
     }
 
     // what is the output of this method ??
