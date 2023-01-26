@@ -12,6 +12,9 @@ Science is what we understand well enough to explain to a computer; art is every
 ### Important Dates
 
 * Please join Slack - we will be using this for discussions
+* Programming Assignment #1 is available in LATTE
+  https://moodle2.brandeis.edu/mod/assign/view.php?id=2488137
+* Slack channel : #pa1-discussion-forum 
 * Recitation starts today Tuesday, Jan 24th.
 
 ### Topics

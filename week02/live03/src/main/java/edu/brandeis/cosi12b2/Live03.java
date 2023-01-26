@@ -14,13 +14,11 @@ public class Live03 {
         // testStringEquals();
     	// testStringChange();
     	testAddDogs();
-        
     }
 
     public static void testPrePostIncrement() {
         // ++a increments and then uses the variable.
         // a++ uses and then increments the variable.
-
         int a = 1;
         System.out.println(a++);
         System.out.println(a);
@@ -59,7 +57,7 @@ public class Live03 {
         Scanner console = new Scanner(System.in);
         System.out.print("What is your name? ");
         String name = console.next();
-        if (name == "Barney") {
+        if (name.equals("Barney")) {
             System.out.println("I love you, you love me,");
             System.out.println("We're a happy family!");
         }
@@ -81,8 +79,8 @@ public class Live03 {
     	String s2 = s1.toLowerCase();
         System.out.printf("'s2' in testStringModification is [%s]\n", s2);
 
-        s1 = s1.toLowerCase(); // now `s1` is a *new* reference that is not the same as old `s1`
-        System.out.printf("'s1' in testStringModification is [%s]\n", s1);
+        // s1 = s1.toLowerCase(); // now `s1` is a *new* reference that is not the same as old `s1`
+        // System.out.printf("'s1' in testStringModification is [%s]\n", s1);
         
         if (s3 == s1) {
         	System.out.println("==");

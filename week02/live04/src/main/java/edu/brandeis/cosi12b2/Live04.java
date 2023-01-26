@@ -7,14 +7,14 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Live04 {
-    public static void main(String[] args) throws Exception {
-//        for (int i = 0; i < 100; i++) {
-//            testRandom();
-//        }
-        testWriteFile();
+    public static void main(String[] args) throws FileNotFoundException {
+        //for (int i = 0; i < 100; i++) {
+        //    testRandom();
+        //}
+        // testWriteFile();
         // testReadFile();
         // testReadFile2();
-    	// testReadFile3();
+    	testReadFile3();
     }
 
     public static void testRandom() {
@@ -28,7 +28,7 @@ public class Live04 {
         File f = new File("example.txt");
         f.createNewFile();
     	System.out.println("Done");
-        // System.out.printf("File written to [%s]!", f.getAbsolutePath());
+        System.out.printf("File written to [%s]!", f.getAbsolutePath());
         // right click, hit refresh and then it shows up
     }
     
@@ -49,7 +49,7 @@ public class Live04 {
     }
 
     public static void testReadFile3() throws FileNotFoundException {
-    	Scanner input = new Scanner(new File("data.txt")); 
+    	Scanner input = new Scanner(new File("data1.txt")); 
     	for (int i=0; input.hasNextLine(); i++) {
             String line = input.nextLine();
             System.out.printf("%02d: %s \n", i, line);
