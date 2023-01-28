@@ -1,6 +1,6 @@
 ## 231 COSI-12B-2: Advanced Programming Techniques in Java
 
-## Lecture
+## Lecture 05
 
 ### Quote
 
@@ -9,20 +9,22 @@
 programming task in full humility, and among other things he avoids clever tricks like the plague."
   -- Edsger Dijkstra (1972) 
 ```
+### Questions ? 
 
 ### Important Dates
 
-
-### Review
-
-
-### Questions
-
+* PA1 due Feb 06
+* Exam 1 Mar 07
 
 ### Topics
 
+* File I/O
+* Exceptions
+* Token vs Line Processing
+* Arrays
 
 ### Slides
+[Lec05](Lec05.pdf)
 
 
 ### Summary
