@@ -1,6 +1,6 @@
 package edu.brandeis.cosi12b2.lec05;
 
-public class Question02 {
+public class Question01 {
 
     public static void main(String[] args) {
 

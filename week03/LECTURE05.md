@@ -26,9 +26,10 @@ programming task in full humility, and among other things he avoids clever trick
 ### Slides
 [Lec05](Lec05.pdf)
 
-
 ### Summary
-
+* Exceptions
+* Scanner token / line
+* Arrays
 
 ### Live Coding
 
