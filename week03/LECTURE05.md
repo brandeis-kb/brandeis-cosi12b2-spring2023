@@ -1,14 +1,14 @@
 ## 231 COSI-12B-2: Advanced Programming Techniques in Java
 
-## Lecture 05
+## Lecture 05 - Jan 31, 2023
 
 ### Quote
 
 ```text
-"The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the 
-programming task in full humility, and among other things he avoids clever tricks like the plague."
+"The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the  programming task in full humility, and among other things he avoids clever tricks like the plague."
   -- Edsger Dijkstra (1972) 
 ```
+
 ### Questions ? 
 
 ### Important Dates
