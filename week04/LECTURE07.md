@@ -1,21 +1,16 @@
 ## 231 COSI-12B-2: Advanced Programming Techniques in Java
 
-## Lecture 06 - Feb 02, 2023
+## Lecture 07 - Feb 07, 2023
 
 ### Quote
 
 ```text
-"Program testing can be a very effective way to show the presence of bugs, 
-but is hopelessly inadequate for showing their absence."
-
-— Edsger Dijkstra
+"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong."
+  -- R. Buckminster Fuller 
 ```
-
-### Questions ? 
 
 ### Important Dates
 
-* PA1 due Feb 06
 * Exam 1 Mar 07
 
 ### Topics
@@ -23,7 +18,7 @@ but is hopelessly inadequate for showing their absence."
 * Arrays
 
 ### Slides
-[Lec06](Lec06.pdf)
+[Lec07](Lec07.pdf)
 
 ### Summary
 * Arrays

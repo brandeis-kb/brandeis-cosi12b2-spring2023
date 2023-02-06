@@ -8,34 +8,39 @@ import java.util.Arrays;
 
 public class ArrayCount01 {
     public static void main(String[] args) {
-        int input = 57135203;
+        // int input = 57135203;
+        int input = 669260267;
         int digit = mostFrequentDigit(input);
         System.out.printf("This answer is [%d]\n", digit);
     }
 
     public static int mostFrequentDigit(int input) {
-        int[] countOfDigits = new int[10];
-        int digit = 0, old = 0;
-        while (input > 0) {
-            digit = input % 10;
-            old = input;
-            countOfDigits[digit]++;
-            input = input / 10;
-            System.out.printf("\n\ndigit[%d] old[%d] input[%d]\n", digit, old, input);
-            System.out.println(Arrays.toString(countOfDigits));
-        }
-        System.out.println(Arrays.toString(countOfDigits));
-        return mostFrequent(countOfDigits);
+    	int digit = 0; 
+    	int[] digitCount = new int[10];
+    	// 0 0 0 0 0 0 0 0 0 0  <- array 
+    	// 0 1 2 3 4 5 6 7 8 9  <- digit to look for 
+    	// 0 0 0 0 0 0 0 0 0 0   
+    	// 0 0 0 1 0 0 0 0 0 0  5713520 3 digitCount[3] ++; digitCount[digit]++
+    	// 1 0 0 1 0 0 0 0 0 0  571352 0  digitCount[digit]++    
+    	while (input > 0) {
+    		digit = input % 10; // digit 3
+    		input = input / 10; // input 571352
+    		digitCount[digit]++; 
+    		// System.out.printf("\n\ndigit[%d] input[%d]\n", digit, input);
+    	}
+    	System.out.println(Arrays.toString(digitCount));
+    	return mostFrequent(digitCount);
     }
 
-    public static int mostFrequent(int[] countOfDigits) {
-        int bestIndex = 0;
-        for (int i=0; i < countOfDigits.length; i++) {
-            if (countOfDigits[i] > countOfDigits[bestIndex]) {
-                bestIndex = i;
-            }
-        }
-        return bestIndex;
+    public static int mostFrequent(int[] digitCount) {
+    	int bestIndex = 0;
+    	for (int i=0; i < digitCount.length; i++) {
+    		if (digitCount[i] > digitCount[bestIndex]) {
+    			// ???? 
+    			bestIndex = i;
+    		}
+    	}
+    	return bestIndex;
     }
 
 }

@@ -1,4 +1,4 @@
-package edu.brandeis.cosi12b2.lec06;
+package edu.brandeis.cosi12b2.lec06.ans;
 
 import java.util.Arrays;
 
@@ -14,8 +14,8 @@ public class Question01 {
     }
 
     public static void increase(int[] a) {
-    	for (int i = 0; i < a.length; i++) {
-    		a[i] = a[i] + 2;
-    	}
+        for (int i = 0; i < a.length; i++) {
+            a[i] = a[i] + 2;
+        }
     }
 }
