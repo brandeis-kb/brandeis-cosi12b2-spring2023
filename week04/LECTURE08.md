@@ -1,12 +1,12 @@
 ## 231 COSI-12B-2: Advanced Programming Techniques in Java
 
-## Lecture 07 - Feb 07, 2023
+## Lecture 08 - Feb 09, 2023
 
 ### Quote
 
 ```text
-"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong."
-  -- R. Buckminster Fuller 
+"Programs must be written for people to read, and only incidentally for machines to execute."
+  -- Abelson and Sussman
 ```
 
 ### Important Dates
@@ -15,9 +15,7 @@
 
 ### Topics
 
-* Wrapper Classes
 * Arrays
-* Object Oriented Design
 
 ### Slides
 [Lec07](Lec07.pdf)
