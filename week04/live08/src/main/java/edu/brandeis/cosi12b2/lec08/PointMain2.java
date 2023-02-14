@@ -13,8 +13,9 @@ public class PointMain2 {
         System.out.println("p1 is (" + p1.x + "," + p1.y + ")");
         System.out.println("p2 is (" + p2.x + "," + p2.y + ")");
         // translate each point to a new location
-        p1.x += 11;
-        p1.y += 6;
+//        p1.x += 11;
+//        p1.y += 6;
+        translate(p1, 11, 6);
         p2.x += 1;
         p2.y += 7;
         // print the points

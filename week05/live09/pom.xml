@@ -5,7 +5,7 @@
 
     <parent>
         <groupId>edu.brandeis.cosi12b</groupId>
-        <artifactId>week04-project</artifactId>
+        <artifactId>week05-project</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -13,7 +13,7 @@
     <name>live07</name>
 
     <groupId>edu.brandeis.cosi12b</groupId>
-    <artifactId>live07-project</artifactId>
+    <artifactId>live09-project</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 

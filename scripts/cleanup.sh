@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -xv
 
 pushd $BRANDEIS_HOME
 

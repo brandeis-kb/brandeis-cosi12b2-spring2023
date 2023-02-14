@@ -2,8 +2,8 @@ package edu.brandeis.cosi12b2.lec08;
 
 public class PointMain3 {
     public static void main(String[] args) {
-        // testMethod01();
-        testMethod02();
+        testMethod01();
+        // testMethod02();
     }
 
     public static void testMethod01() {
@@ -21,6 +21,10 @@ public class PointMain3 {
         Point3 p1 = new Point3();
         p1.x = 7;
         p1.y = 2;
+        
+        
+        
+        p1.x = 9;
         Point3 p2 = new Point3();
         p2.x = 4;
         p2.y = 3;

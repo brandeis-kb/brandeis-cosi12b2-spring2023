@@ -1,10 +1,10 @@
-package edu.brandeis.cosi12b2.lec08;
+package edu.brandeis.cosi12b2.lec09;
 
-public class PointMain4 {
+public class PointMain5 {
     public static void main(String[] args){
         //Create two Point objects
-        Point4 p1 = new Point4(5, 2);
-        Point4 p2 = new Point4(4, 3);
+        Point5 p1 = new Point5(5, 2);
+        Point5 p2 = new Point5(4, 3);
 
         //Print each point
         System.out.println("p1 is "+ p1);
