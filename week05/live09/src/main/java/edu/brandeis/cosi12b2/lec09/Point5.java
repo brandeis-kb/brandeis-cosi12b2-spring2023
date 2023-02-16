@@ -20,7 +20,17 @@ public class Point5 {
     }
 
     public Point5(Point5 p){
-        //
+        //this.x = p.x;
+        //this.y = p.y;
+    	this(p.x, p.y);
+    }
+    
+    public int getX() {
+    	return x;
+    }
+    
+    public void setX(int x1) {
+    	x = x1;
     }
 
     // shifts this point;s location by the given amount
@@ -35,13 +45,19 @@ public class Point5 {
         y = newY;
     }
 
-    public double distance(Point other) {
-        int dx = x - other.x;
-        int dy = y - other.y;
+    public double distance(Point5 p2) {
+        int dx = x - p2.x;
+        int dy = y - p2.y;
         return Math.sqrt(dx * dx + dy * dy);
     }
 
     public double distanceFromOrigin(){
+    	Point5 origin = new Point5(0, 0);
+    	return distance(origin);
+    }
+    
+    
+    public double distanceFromOrigin1(){
         return Math.sqrt(x * x + y * y);
     }
 
@@ -52,14 +68,11 @@ public class Point5 {
 
     public boolean equals(Object o) {
         if (o instanceof Point5) {
-            Point5 p = (Point5) object;
+            Point5 p = (Point5) o;
             return x == p.x && y == p.y;
         } else {
             return false;
         }
     }
 
-    public int hashCode() {
-        return Objects.hash(super.hashCode(), x, y);
-    }
 }

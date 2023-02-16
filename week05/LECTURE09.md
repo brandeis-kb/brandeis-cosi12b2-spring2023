@@ -18,6 +18,7 @@ more to take away."
 
 ### Topics
 
+* Review
 * Object Oriented Programming
 * Constructor
 
