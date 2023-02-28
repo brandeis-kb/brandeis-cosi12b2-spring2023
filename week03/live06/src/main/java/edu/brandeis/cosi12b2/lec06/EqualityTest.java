@@ -9,7 +9,7 @@ public class EqualityTest {
     public static void testStrings() {
         String s1 = "ABC";
         String s2 = "ABC";
-        String s3 = new String("ABC");
+        String s3 = "ABC";
 
         System.out.print("String Test if s1 == s2: ");
         if (s1 == s2){

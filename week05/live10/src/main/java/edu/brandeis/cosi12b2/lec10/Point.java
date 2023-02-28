@@ -16,7 +16,7 @@ public class Point {
 		this.y = y;
 	}
 	
-	// no arg constrcutor
+	// no arg constructor
 	public Point() {
 		this(0, 0);
 	}
@@ -57,4 +57,10 @@ public class Point {
     }
 
     // add getters and setters appropriately
+    public int getX() {
+		return x;
+	}
+    public int getY() {
+		return y;
+	}
 }

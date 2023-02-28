@@ -18,7 +18,7 @@ public class Point2 {
         y0 += dy;
      }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
     	Point2.x1 = 7;
     	Point2.y1 = 4;
     	
@@ -29,14 +29,14 @@ public class Point2 {
         
         
         Point2 p2 = new Point2();
-        System.out.println("p2 static is (" + p2.x1 + "," + p2.y1 + ")");
+        System.out.println("p2 static is (" + x1 + "," + y1 + ")");
         
         p2.x0 = 3;
         p2.y0 = 6;
         System.out.println("p2 instance is (" + p2.x0 + "," + p2.y0 + ")");
         
         Point2 p3 = new Point2();
-        System.out.println("p3 static is (" + p3.x1 + "," + p3.y1 + ")");
+        System.out.println("p3 static is (" + x1 + "," + y1 + ")");
         
         p3.x0 = 14;
         p3.y0 = 22;

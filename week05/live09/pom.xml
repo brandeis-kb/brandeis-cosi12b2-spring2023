@@ -10,7 +10,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <name>live07</name>
+    <name>live09</name>
 
     <groupId>edu.brandeis.cosi12b</groupId>
     <artifactId>live09-project</artifactId>

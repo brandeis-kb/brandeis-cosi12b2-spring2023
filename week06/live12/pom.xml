@@ -5,15 +5,15 @@
 
     <parent>
         <groupId>edu.brandeis.cosi12b</groupId>
-        <artifactId>week05-project</artifactId>
+        <artifactId>week06-project</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <name>live10</name>
+    <name>live12</name>
 
     <groupId>edu.brandeis.cosi12b</groupId>
-    <artifactId>live10-project</artifactId>
+    <artifactId>live12-project</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 

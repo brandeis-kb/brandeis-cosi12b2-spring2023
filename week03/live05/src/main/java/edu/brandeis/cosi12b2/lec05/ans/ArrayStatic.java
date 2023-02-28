@@ -11,7 +11,7 @@ public class ArrayStatic {
     }
 
     public static int[] twoCopies(int[] numbers) {
-        int result[] = new int[numbers.length * 2];
+        int[] result = new int[numbers.length * 2];
         for (int i=0, j=0; i < numbers.length; i++, j+=2) {
             result[j] = numbers[i];
             result[j + 1] = numbers[i];

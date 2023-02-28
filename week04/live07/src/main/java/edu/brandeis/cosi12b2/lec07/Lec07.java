@@ -38,10 +38,6 @@ public class Lec07 {
     }
     
     public boolean assertTrue(Object lhs, Object rhs) {
-    	if (lhs.equals(rhs)) {
-    		return true;
-    	} else {
-    		return false;
-    	}    	
+        return lhs.equals(rhs);
     }
 }

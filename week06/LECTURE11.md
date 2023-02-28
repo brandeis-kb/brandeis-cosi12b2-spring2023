@@ -1,6 +1,6 @@
 ## 231 COSI-12B-2: Advanced Programming Techniques in Java
 
-## Lecture
+## Lecture 11 - Feb 28, 2023
 
 ### Quote
 
@@ -14,18 +14,24 @@ of all evil. Yet we should not pass up our opportunities in that critical 3%."
 
 ### Important Dates
 
-
-### Review
-
-
-### Questions
-
+* Exam 1 Mar 07
+* PA3 due Mar 10th 
 
 ### Topics
+Four OOP concepts
+  * Encapsulation
+  * Inheritance
+  * Polymorphism
+  * Abstraction
+
+Object Oriented Programming
+  * Class Invariants
+  * Pre/post conditions
+  * Throwing Exceptions
 
 
 ### Slides
-
+[Lec11](Lec11.pdf)
 
 ### Summary
 

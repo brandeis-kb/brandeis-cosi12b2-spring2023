@@ -11,7 +11,7 @@ public class ArrayStatic {
     }
 
     public static int[] twoCopies(int[] numbers) {
-        int result[] = {1, 2, 3};
+        int[] result = {1, 2, 3};
         return result;
     }
 }
