@@ -12,6 +12,7 @@ public class Point {
 	
 	// constructor
 	public Point(int x, int y) {
+		// if 
 		this.x = x;
 		this.y = y;
 	}
@@ -23,12 +24,14 @@ public class Point {
 	
     // shifts this point;s location by the given amount
     public void translate(int dx, int dy) {
+    	// protect as well
         x += dx;
         y += dy;
     }
 
     // distance from given point
     public double distance(Point p2) {
+    	// 
         int dx = x - p2.x;
         int dy = y - p2.y;
         return Math.sqrt(dx * dx + dy * dy);

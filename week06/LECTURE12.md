@@ -1,6 +1,6 @@
 ## 231 COSI-12B-2: Advanced Programming Techniques in Java
 
-## Lecture 10 - Feb 16, 2023
+## Lecture 12 - Mar 2, 2023
 
 ### Quote
 
@@ -11,30 +11,23 @@
 
 ### Important Dates
 
-* PA2 due Feb 22 (discussed with TAs - we will keep this due date)
 * Exam 1 Mar 07
-* No class Feb 21, Feb 23 
+* PA3 due Mar 10th
 * Course Survey : https://moodle2.brandeis.edu/mod/feedback/view.php?id=2531657
 
 ### Topics
 
 * Review
-* Object Oriented Programming
-* Arrays of Objects
-* Method Overloading
-* Encapsulation
+* Inheritance
+* `super` keyword
+* `protected` keyword
+* packages & import
+* visibility
 
 ### Slides
-[Lec10](Lec10.pdf)
+[Lec12](Lec12.pdf)
 
 ### Summary
-* Arrays of Objects
-* Method Overloading
-  Note: Overloading and overriding are two different things. 
-  Overloading is within a class, two methods with same name
-  Overriding is one class inheriting from another and changing a method (equals)
-* Encapsulation - combining data and methods as a single object; hide the internal
-  representation of your object and only expose what is needed 
 
 ### Live Coding
 

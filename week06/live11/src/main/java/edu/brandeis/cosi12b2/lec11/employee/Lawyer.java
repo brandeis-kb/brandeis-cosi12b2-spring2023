@@ -7,4 +7,12 @@ public class Lawyer extends Employee {
     }
 
     // additional methods here: extra vacation (15 days), pink form for vaca, they know how to sue
+    public int getVacationDays() {
+    	return super.getVacationDays() + 5;
+    }    
+    
+    public void sue() {
+        System.out.println("I'm suing you!");
+    }
+
 }
