@@ -1,7 +1,7 @@
-package edu.brandeis.cosi12b2.lec12;
+package edu.brandeis.cosi12b2.lec13.employee;
 
 // A class to represent secretaries
-class Secretary extends Employee {
+public class Secretary extends Employee {
     
 	public Secretary(int years) {
         super(years);

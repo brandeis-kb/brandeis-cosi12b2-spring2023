@@ -1,31 +1,27 @@
 ## 231 COSI-12B-2: Advanced Programming Techniques in Java
 
-## Lecture 12 - Mar 2, 2023
+## Lecture 13 - Mar 9, 2023
 
 ### Quote
 
 ```text
-“Simplicity, carried to the extreme, becomes elegance.”
-— Jon Franklin,
+“Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the Second Law of Thermodynamics; i.e., it always increases.”
+  — Norman Augustine
 ```
 
 ### Important Dates
 
-* Exam 1 Mar 07
-* PA3 due Mar 10th
+* PA3 due Mar 13th
 * Course Survey : https://moodle2.brandeis.edu/mod/feedback/view.php?id=2531657
 
 ### Topics
 
 * Review
-* Inheritance
-* `super` keyword
-* `protected` keyword
-* packages & import
-* visibility
+* Casting
+* Polymorphism
 
 ### Slides
-[Lec12](Lec12.pdf)
+[Lec13](Lec13.pdf)
 
 ### Summary
 
