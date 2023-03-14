@@ -5,7 +5,7 @@ public class M01_Conversions {
         float f1 = 7.0f;
         int i1 = 1;
         // assignment conversion
-        f1 = i1;
+        f1 = i1;  // f1 = 1.0f;
         System.out.printf("f1 is %.2f\n", f1);
 
         // arithmetic promotion

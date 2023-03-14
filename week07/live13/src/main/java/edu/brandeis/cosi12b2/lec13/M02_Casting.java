@@ -10,8 +10,8 @@ public class M02_Casting {
         // upcast();
         // bothCast();
         // errorCast1();
-        errorCast2();
-        // guardedCast();
+        // errorCast2();
+        guardedCast();
     }
 
     public static void upcast() {
@@ -21,8 +21,8 @@ public class M02_Casting {
         Dog d = new Dog();
         System.out.println(d.health);
 
-        Mammal m = c; // upcasting
-        System.out.println(m);
+        Mammal m = d; // upcasting
+        System.out.println(((Cat) m).owner());
     }
 
     public static void bothCast() {
@@ -45,10 +45,14 @@ public class M02_Casting {
 
     public static void guardedCast() {
         Cat c1 = new Cat();
-        Animal a = c1; //upcasting to Animal
+        Dog d1 = new Dog();
+        // Animal a = c1; //upcasting to Animal
+        Animal a = d1; //upcasting to Animal
         if (a instanceof Cat) { // testing if the Animal is a Cat
             System.out.println("It's a Cat!");
             Cat c2 = (Cat)a;
+        } else {
+            System.out.println("It's not a Cat!");
         }
     }
 }
