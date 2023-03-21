@@ -5,19 +5,16 @@
 
     <parent>
         <groupId>edu.brandeis.cosi12b</groupId>
-        <artifactId>java-reactor-project</artifactId>
+        <artifactId>week09-project</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../parent-reactor/java-reactor/pom.xml</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <name>week09</name>
-    <artifactId>week09-project</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <name>live17</name>
 
-    <modules>
-        <module>live16</module>
-        <module>live17</module>
-    </modules>
+    <groupId>edu.brandeis.cosi12b</groupId>
+    <artifactId>live17-project</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
 </project>
