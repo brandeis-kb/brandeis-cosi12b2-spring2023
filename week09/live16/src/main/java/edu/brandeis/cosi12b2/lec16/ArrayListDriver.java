@@ -1,4 +1,4 @@
-package edu.brandeis.cosi12b2.lec15;
+package edu.brandeis.cosi12b2.lec16;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ public class ArrayListDriver {
     private List<String> words = new ArrayList<String>();
 
     public static void main(String[] args) {
-        // testAddDrive1();
+        testAddDrive1();
         // testAddDrive2();
         // testRemoveDrive1();
-        testRemoveDrive2();
+        // testRemoveDrive2();
     }
 
     public static void testAddDrive1() {
