@@ -4,72 +4,83 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayListDriver {
-    private List<String> words = new ArrayList<String>();
 
-    public static void main(String[] args) {
-        testAddDrive1();
-        // testAddDrive2();
+	public static void main(String[] args) {
+		int[] foo = {1, 2, 3};
+		int y = foo.length;
+		
+        List<String> words = new ArrayList<String>();
+		words.size();
+		
+		for (int i=0; i<10; i++) {
+			int j = 0;
+		}
+		
+		int k = j;
+		
+        // testAddDrive1();
+        testAddDrive2();
         // testRemoveDrive1();
         // testRemoveDrive2();
     }
 
     public static void testAddDrive1() {
-        ArrayListDriver driver1 = new ArrayListDriver();
-        driver1.populate1();
-        driver1.testAdd1();
-        driver1.display(99);
+        List<String> words = new ArrayList<String>();
+        populate1(words);
+        testAdd1(words);
+        display(words, 99);
     }
 
     public static void testAddDrive2() {
-        ArrayListDriver driver1 = new ArrayListDriver();
-        driver1.populate1();
-        driver1.testAdd2();
-        driver1.display(99);
+        List<String> words = new ArrayList<String>();
+        populate1(words);
+        testAdd2(words);
+        display(words, 99);
     }
 
-    public void testAdd1() {
+    public static void testAdd1(List<String> words) {
         for (int i=0; i < words.size() && i < 15; i++) {
             words.add(i,"~");
-            display(i);
+            display(words, i);
         }
     }
 
-    public void testAdd2() {
+    public static void testAdd2(List<String> words) {
         for (int i=0; i < words.size(); i+=2) {
             words.add(i,"~");
-            display(i);
+            display(words, i);
         }
     }
 
-    public static void testRemoveDrive1() {
-        ArrayListDriver driver1 = new ArrayListDriver();
-        driver1.populate2();
-        driver1.testRemove1();
-        driver1.display(99);
-    }
-
-    public static void testRemoveDrive2() {
-        ArrayListDriver driver1 = new ArrayListDriver();
-        driver1.populate2();
-        driver1.testRemove2();
-        driver1.display(99);
-    }
-
-    public void testRemove1() {
-        for (int i=0; i < words.size(); i+=2) {
-            words.remove(i);
-            display(i);
-        }
-    }
-
-    public void testRemove2() {
-        for (int i=0; i < words.size(); i++) {
-            words.remove(i);
-            display(i);
-        }
-    }
-    
-    public void populate1() {
+//    public static void testRemoveDrive1() {
+//        ArrayListDriver driver1 = new ArrayListDriver();
+//        driver1.populate2();
+//        driver1.testRemove1();
+//        driver1.display(99);
+//    }
+//
+//    public static void testRemoveDrive2() {
+//        ArrayListDriver driver1 = new ArrayListDriver();
+//        driver1.populate2();
+//        driver1.testRemove2();
+//        driver1.display(99);
+//    }
+//
+//    public void testRemove1(List<String> words) {
+//        for (int i=0; i < words.size(); i+=2) {
+//            words.remove(i);
+//            display(i);
+//        }
+//    }
+//
+//    public void testRemove2(List<String> words) {
+//        for (int i=0; i < words.size(); i++) {
+//            words.remove(i);
+//            display(i);
+//        }
+//    }
+//    
+    public static void populate1(List<String> words) {
         words.add("four");
         words.add("score");
         words.add("and");
@@ -78,7 +89,7 @@ public class ArrayListDriver {
         words.add("ago");
     }
 
-    public void populate2() {
+    public static void populate2(List<String> words) {
         words.add("~");
         words.add("four");
         words.add("~");
@@ -93,7 +104,7 @@ public class ArrayListDriver {
         words.add("ago");
     }
 
-    public void display(int i){
+    public static void display(List<String> words, int i){
         if (i == 99) {
             System.out.printf("At final step, words is => %s \n", words);
         } else {

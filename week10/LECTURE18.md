@@ -1,31 +1,32 @@
 ## 231 COSI-12B-2: Advanced Programming Techniques in Java
 
-## Lecture 17 - Mar 23, 2023
+## Lecture 18 - Mar 28, 2023
 
 ### Quote
 
 ```text
-“Computer Science is no more about computers than astronomy is about telescopes.”
-— Edsger W. Dijkstra
+"Make it work, then make it beautiful, then if you really, really have to, make it fast. 90 percent of the time, if 
+you make it beautiful, it will already be fast. So really, just make it beautiful!"
+  -- Joe Armstrong
 ```
 
 ### Important Dates
-* There will be no online class for Lecture 18 on Mar 28
-  * Slides and video will be posted before  Mar 28
-  * Watch the video whenever it is convenient for you
+* PA4 due Mar 28
 
 
 ### Topics
-* ArrayList
-* Errors
 * Complexity & Running Time
+* Comparable
+* Collections
 
 ### Slides
-[Lec17](Lec17.pdf)
+[Lec18](Lec18.pdf)
 
 ### Summary
 
 ### Live Coding
+
+(continued)
 
 The goal of this exercise is to model a video store. We will have the following classes:
 - Video (and subclasses Action, Drama, Comedy, Family)

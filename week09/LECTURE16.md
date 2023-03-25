@@ -5,13 +5,12 @@
 ### Quote
 
 ```text
-"There are two ways of constructing a software design. One way is to make it so simple that there are obviously no 
-deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies."
+"There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies."
   -- C.A.R. Hoare
 ```
 
 ### Important Dates
-* There will be no online class for Lecture 18
+* There will be no online class for Lecture 18 on Mar 28
     * Slides and video will be posted before  Mar 28
     * Watch the video whenever it is convenient for you
 
