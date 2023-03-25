@@ -10,19 +10,23 @@ public class CalendarDate implements Comparable<CalendarDate> {
         this.day = day;
     }
 
-    public int compareTo(CalendarDate other) {
-        if (this.month != other.month) {
-            return this.month - other.month;
-        } else {
-            return this.day - other.day;
-        }
-    }
+//    public int compareTo(CalendarDate other) {
+//        if (this.month != other.month) {
+//            return this.month - other.month;
+//        } else {
+//            return this.day - other.day;
+//        }
+//    }
 
-    public int compareTo2(CalendarDate other) {
-        if (other.month != this.month) {
-            return other.month - this.month;
+//    public int compareTo(CalendarDate other) {
+//    	return 0;
+//    }
+    
+    public int compareTo(CalendarDate rhs) {
+        if (rhs.month != this.month) {
+            return rhs.month - this.month;
         } else {
-            return other.day - this.day;
+            return rhs.day - this.day;
         }
     }
 

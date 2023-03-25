@@ -1,12 +1,14 @@
 package edu.brandeis.cosi12b2.lec18.movie;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Store {
-	List<AbstractMovie> allVideos = new ArrayList<>();
-	List<AbstractMovie> videosInStock = new ArrayList<>();
-	List<AbstractMovie> videosCheckedOut = new ArrayList<>();
+	private List<AbstractMovie> allVideos = new ArrayList<>();
+	private List<AbstractMovie> videosInStock = new ArrayList<>();
+	private List<AbstractMovie> videosCheckedOut = new ArrayList<>();
 	
 	public Store() {
 		allVideos.add(new Action("The Matrix", false, 0, 1));
@@ -22,20 +24,49 @@ public class Store {
 		videosInStock.addAll(allVideos);
 	}
 	
-	public AbstractMovie checkOutVideo(String title, int copy) {
+	public Set<String> getTitles() {
+		Set<String> titles = new HashSet<>();
+		for (AbstractMovie m: videosInStock) {
+			titles.add(m.getTitle());
+		}
+		return titles;
+	}
+	
+	public AbstractMovie findVideo(String title) {
 		for (int i=0; i< videosInStock.size(); i++) {
 			AbstractMovie current = videosInStock.get(i);
-			if (current.getCopy() == copy && current.getTitle().equals(title)) {
-				current.setCheckedOut(true);
-				videosInStock.remove(current);
-				videosCheckedOut.add(current);
+			if (current.getTitle().equals(title)) {
 				return current;
 			}
 		}
 		return null;
 	}
-	
 
+	public AbstractMovie findVideo(String title, int copy) {
+		for (int i=0; i< videosInStock.size(); i++) {
+			AbstractMovie current = videosInStock.get(i);
+			if (current.getCopy() == copy && current.getTitle().equals(title)) {
+				return current;
+			}
+		}
+		return null;
+	}
+
+	public AbstractMovie findAndCheckOutVideo(String title, int copy) {
+		AbstractMovie movie = findVideo(title, copy);
+		return this.checkOutVideo(movie);
+	}	
+
+	public AbstractMovie checkOutVideo(AbstractMovie movie) {
+		if (movie != null) {
+			movie.setCheckedOut(true);
+			videosInStock.remove(movie);
+			videosCheckedOut.add(movie);
+			return movie;
+		}
+		return null;
+	}
+	
 	public void checkInVideo(AbstractMovie movie) {
 		movie.setCheckedOut(false);
 		videosCheckedOut.remove(movie);

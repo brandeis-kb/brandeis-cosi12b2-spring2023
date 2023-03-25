@@ -5,8 +5,7 @@
 ### Quote
 
 ```text
-"Make it work, then make it beautiful, then if you really, really have to, make it fast. 90 percent of the time, if 
-you make it beautiful, it will already be fast. So really, just make it beautiful!"
+"Make it work, then make it beautiful, then if you really, really have to, make it fast. 90 percent of the time, if you make it beautiful, it will already be fast. So really, just make it beautiful!"
   -- Joe Armstrong
 ```
 
@@ -43,7 +42,7 @@ The goal of this exercise is to model a video store. We will have the following 
   
 We will model the video store over the course of 1 week (7 days)
 
-Each day, a customer has a 30% chance of coming in and a 50% chance of renting something
+Each day, a customer has a 80% chance of coming in and a 50% chance of renting something
 - they can only rent something available
 - they will rent at random any title they don't have at home
 
