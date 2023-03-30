@@ -5,23 +5,18 @@
 ### Quote
 
 ```text
-“Computer Science is no more about computers than astronomy is about telescopes.”
-— Edsger W. Dijkstra
+"Computers are useless. They can only give you answers."
+- Pablo Picasso
 ```
 
 ### Important Dates
-* There will be no online class for Lecture 18 on Mar 28
-  * Slides and video will be posted before  Mar 28
-  * Watch the video whenever it is convenient for you
 
 
 ### Topics
-* ArrayList
-* Errors
-* Complexity & Running Time
+* Iterator pattern
 
 ### Slides
-[Lec17](Lec17.pdf)
+[Lec19](Lec19.pdf)
 
 ### Summary
 

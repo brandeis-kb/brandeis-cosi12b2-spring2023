@@ -1,4 +1,4 @@
-package edu.brandeis.cosi12b2.lec18.movie;
+package edu.brandeis.cosi12b2.lec19.movie;
 
 import java.util.List;
 import java.util.Random;
