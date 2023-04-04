@@ -36,25 +36,28 @@ public class MovieSimulation {
 		for (int i=0; i < customers.size(); i++) {
 			Customer customer = customers.get(i);
 			if (random.nextFloat() < 0.80) { 
-				System.out.printf("Customer [%s] comes in\n", customer);
+				// System.out.printf("Customer [%s] comes in\n", customer);
+
+				// return first
+				if (random.nextFloat() < 0.90) {
+					customer.returnVideo(store);
+				}
 
                 // rent / return switch
 				if (random.nextFloat() < 0.50) {
 					customer.rent(store);
 				}
-				if (random.nextFloat() < 0.90) {
-					customer.returnVideo(store);
-				}
 			}
-			System.out.printf("Customer [%s]\n", customer);
+			// System.out.printf("Customer [%s]\n", customer);
+			// assess late fees
 		}
-		// assess late fees
-	}
-	
-	public void rentVideo(Customer customer) {
 		
+		// increment rental time
+		store.incrementRentalTime();
+		
+		store.assessLateFees();
+		
+		store.printCheckedOutInventory();
 	}
 	
-
-
 }

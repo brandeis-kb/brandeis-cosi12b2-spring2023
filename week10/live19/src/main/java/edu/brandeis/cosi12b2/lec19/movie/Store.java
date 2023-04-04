@@ -2,6 +2,7 @@ package edu.brandeis.cosi12b2.lec19.movie;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -72,12 +73,37 @@ public class Store {
 		videosCheckedOut.remove(movie);
 		videosInStock.add(movie);
 	}
-
 	
+	public void incrementRentalTime() {
+		Iterator<AbstractMovie> itr = this.videosCheckedOut.iterator();
+		while (itr.hasNext()) {
+			AbstractMovie movie = itr.next();
+			movie.setRentalTime(movie.getRentalTime() + 1);
+		}
+	}
+	
+	public void assessLateFees() {
+		Iterator<AbstractMovie> itr = this.videosCheckedOut.iterator();
+		while (itr.hasNext()) {
+			AbstractMovie movie = itr.next();
+			if (movie.getRentalTime() > 3) {
+				movie.setLateFee(movie.getLateFee() + 5);
+			}
+		}
+	}
+
 	public void printInventory() {
+		this.printInStockInventory();
+		this.printCheckedOutInventory();
+	}
+
+	public void printInStockInventory() {
 		System.out.println("In Stock =" + videosInStock);
+	}
+
+	public void printCheckedOutInventory() {
 		System.out.println("Checked Out =" + videosCheckedOut);
 	}
 
-
+	
 }

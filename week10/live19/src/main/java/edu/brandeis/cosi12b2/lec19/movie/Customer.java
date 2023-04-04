@@ -18,7 +18,7 @@ public class Customer {
 		List<String> videosAtHome = getTitlesAtHome();
 		
 		videoTitles.removeAll(videosAtHome);
-        System.out.println("titles = " + videoTitles);
+        // System.out.println("titles = " + videoTitles);
 		
 		if (videoTitles.size() > 0) {
 			String title = videoTitles.get(0);

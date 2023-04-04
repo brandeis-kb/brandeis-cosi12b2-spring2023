@@ -1,6 +1,6 @@
 ## 231 COSI-12B-2: Advanced Programming Techniques in Java
 
-## Lecture 17 - Mar 23, 2023
+## Lecture 19 - Mar 30, 2023
 
 ### Quote
 
@@ -10,6 +10,8 @@
 ```
 
 ### Important Dates
+* PA4 due Fri Mar 31
+* Spring Break - No class Thu Apr 06, Tue Apr 11, Thu Apr 13
 
 
 ### Topics
