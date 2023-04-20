@@ -16,7 +16,8 @@
     <packaging>pom</packaging>
 
     <modules>
-<!--        <module>live20</module>-->
+        <module>live21</module>
+        <module>live22</module>
     </modules>
 
 </project>
