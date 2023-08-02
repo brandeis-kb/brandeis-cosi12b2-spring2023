@@ -30,22 +30,23 @@ public class Stack<T> {
     }
 
     public T pop() {
-        if (current == -1) {
+        if (empty()) {
             System.out.println("Stack Underflow");
             return null;
         } else {
-            T rv = data.get(current);
-            data.remove(current--);
+            T rv = peek();
+            data.remove(current);
+            current = current - 1;
             return rv;
         }
     }
 
     public boolean empty() {
-        return false; //??
+        return current == -1; 
     }
 
     public T peek() {
-        return null; // ??
+        return data.get(current);
     }
 
     @Override

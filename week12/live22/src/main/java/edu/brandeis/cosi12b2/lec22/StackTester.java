@@ -3,9 +3,9 @@ package edu.brandeis.cosi12b2.lec22;
 public class StackTester {
 
     public static void main(String[] args) {
-        System.out.println("========== Begin Test Push ==========");
-        testPush();
-        System.out.println("==========  End Test Push  ==========");
+//        System.out.println("========== Begin Test Push ==========");
+//        testPush();
+//        System.out.println("==========  End Test Push  ==========");
         System.out.println("========== Begin Test Pop  ==========");
         testPop();
         System.out.println("==========  End Test Pop   ==========");
@@ -27,6 +27,7 @@ public class StackTester {
 
         System.out.println("=== Add One More");
         stack.push("Duck");
+        System.out.println(stack);
     }
 
     public static void testPop() {
@@ -38,6 +39,18 @@ public class StackTester {
         stack.push("Chicken");
         System.out.println(stack);
 
+        System.out.println("=== Peek Two");
+        String animalp1 = stack.peek();
+        System.out.printf("Animal Peek 1 is [%s]\n", animalp1);
+        String animalp2 = stack.peek();
+        System.out.printf("Animal Peek 2 is [%s]\n", animalp2);
+        
+        
+        
+        //    (    { [  {   }   ] } ([{])}   )
+        // ( (  [ { ]
+        
+
         System.out.println("=== Pop Two");
         String animal1 = stack.pop();
         System.out.printf("Animal 1 is [%s]\n", animal1);
@@ -46,6 +59,6 @@ public class StackTester {
         System.out.println(stack);
 
         System.out.println("=== Pop One More");
-        stack.pop();
+        stack.pop(); // ???
     }
 }

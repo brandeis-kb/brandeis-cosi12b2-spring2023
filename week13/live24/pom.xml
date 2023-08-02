@@ -2,25 +2,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>edu.brandeis.cosi12b</groupId>
-        <artifactId>week08-project</artifactId>
+        <artifactId>week13-project</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <name>live15</name>
+    <name>live24</name>
 
     <groupId>edu.brandeis.cosi12b</groupId>
-    <artifactId>live15-project</artifactId>
+    <artifactId>live24-project</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>

@@ -16,7 +16,7 @@ public class ArrayListDriver {
 			int j = 0;
 		}
 		
-		int k = j;
+		// int k = j;
 		
         // testAddDrive1();
         testAddDrive2();

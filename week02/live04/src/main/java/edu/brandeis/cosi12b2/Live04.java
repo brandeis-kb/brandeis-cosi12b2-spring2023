@@ -7,11 +7,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Live04 {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws Exception {
         //for (int i = 0; i < 100; i++) {
         //    testRandom();
         //}
-        // testWriteFile();
+        testWriteFile();
         // testReadFile();
         // testReadFile2();
     	testReadFile3();
